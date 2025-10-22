@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms and Conditions - NLEX Music</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* ===== THEME COLORS ===== */
+    :root {
+      --black: #0a0a0a;
+      --teal: #00b8b8;
+      --white: #ffffff;
+      --gray: #d1d1d1;
+    }
+
+    body {
+      background-color: var(--black);
+      color: var(--white);
+      font-family: "Poppins", sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ===== HEADER ===== */
+    .terms-header {
+      background: linear-gradient(135deg, var(--teal) 10%, #003333 90%);
+      padding: 70px 0;
+      text-align: center;
+      color: var(--white);
+      position: relative;
+    }
+
+    .terms-header h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+
+    .terms-header i {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: var(--white);
+    }
+
+    /* ===== CONTENT ===== */
+    .terms-content {
+      padding: 50px 15px;
+    }
+
+    .terms-content h2 {
+      color: var(--teal);
+      margin-top: 40px;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .terms-content p, .terms-content li {
+      color: var(--gray);
+      font-size: 1.05rem;
+    }
+
+    .terms-content ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .terms-content ul li::before {
+      content: "\f26a"; /* Music Note icon */
+      font-family: "Bootstrap-icons";
+      color: var(--teal);
+      margin-right: 10px;
+    }
+
+    a {
+      color: var(--teal);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background-color: #111;
+      text-align: center;
+      padding: 25px 10px;
+      color: var(--gray);
+    }
+
+    .footer i {
+      color: var(--teal);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .terms-header h1 {
+        font-size: 2.1rem;
+      }
+      .terms-content h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    /* ===== SCROLL EFFECT ===== */
+    .terms-content h2,
+    .terms-content p,
+    .terms-content ul {
+      transition: all 0.3s ease;
+    }
+
+    .terms-content h2:hover {
+      color: #00ffff;
+      transform: translateX(5px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <section class="terms-header">
+    <div class="container">
+      <i class="bi bi-music-note-beamed"></i>
+      <h1>Terms and Conditions</h1>
+      <p class="mt-3">For NLEX Music Platform</p>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="terms-content">
+    <div class="container">
+      <h2><i class="bi bi-info-circle"></i> Introduction</h2>
+      <p>Welcome to our music platform. These Terms and Conditions govern your use of our website, streaming services, and content. By accessing or using this platform, you agree to comply with these terms.</p>
+
+      <h2><i class="bi bi-play-circle"></i> Use of the Music Service</h2>
+      <p>Our platform provides access to a variety of music content. You agree to the following:</p>
+      <ul>
+        <li>Do not upload or share content that violates others’ rights.</li>
+        <li>Do not reproduce content without proper licensing.</li>
+        <li>Use the platform for personal, non-commercial purposes only.</li>
+        <li>Refrain from any illegal activities or IP violations.</li>
+      </ul>
+
+      <h2><i class="bi bi-credit-card"></i> Subscription and Payment</h2>
+      <p>If you subscribe to paid services, you agree to provide accurate payment details and pay all applicable fees. Premium content may include offline downloads and exclusive access.</p>
+
+      <h2><i class="bi bi-c-circle"></i> Intellectual Property Rights</h2>
+      <p>All music, artwork, and related materials are protected by copyright laws. Do not modify, distribute, or create derivative works without permission.</p>
+
+      <h2><i class="bi bi-exclamation-triangle"></i> Limitations of Liability</h2>
+      <p>We do not guarantee uninterrupted access. Use of our services is at your own risk. We are not liable for damages resulting from technical issues or service interruptions.</p>
+
+      <h2><i class="bi bi-shield-lock"></i> Privacy Policy</h2>
+      <p>We value your privacy. Please review our <a href="/privacy-policy">Privacy Policy</a> to learn how we collect and use your data.</p>
+
+      <h2><i class="bi bi-pencil-square"></i> Content Modifications</h2>
+      <p>We may modify or update our content and Terms anytime. We encourage checking this page regularly for updates.</p>
+
+      <h2><i class="bi bi-person-x"></i> Termination of Service</h2>
+      <p>We may suspend accounts that violate these Terms. Terminated accounts may lose access to purchased content without refund.</p>
+
+      <h2><i class="bi bi-balance-scale"></i> Governing Law</h2>
+      <p>These Terms follow the laws of your local jurisdiction. Disputes will be handled under the appropriate court authority.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        &copy; 2025 <strong>NLEX Music</strong> — All Rights Reserved.
+        <br>
+        <i class="bi bi-instagram"></i> <i class="bi bi-twitter-x"></i> <i class="bi bi-facebook"></i> <i class="bi bi-youtube"></i>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

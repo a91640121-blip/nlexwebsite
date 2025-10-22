@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logic Pro - NLEX MUSIC</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Background setup */
+    body {
+      background-image: url('lgp.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      color: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+      position: relative;
+    }
+
+    /* Dark overlay */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: -1;
+    }
+
+    /* Main content box */
+    .container {
+      margin-top: 120px;
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.65);
+      padding: 50px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(5px);
+      text-align: center;
+    }
+
+    /* Title */
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #00b3ff;
+      margin-bottom: 25px;
+      letter-spacing: 2px;
+    }
+
+    /* Description */
+    .lead {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: #e9ecef;
+      text-align: justify;
+    }
+
+    /* Buttons */
+    .btn-custom {
+      background: linear-gradient(135deg, #007aff, #00b3ff);
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 0 12px rgba(0, 180, 255, 0.5);
+    }
+
+    .btn-custom:hover {
+      background: linear-gradient(135deg, #00b3ff, #007aff);
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 200, 255, 0.8);
+      color: #fff;
+    }
+
+    /* Button layout */
+    .text-center a {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .container {
+        margin-top: 80px;
+        padding: 35px 25px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .lead {
+        font-size: 1.05rem;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h1>Logic Pro</h1>
+    <p class="lead">
+      Logic Pro is a professional-grade Digital Audio Workstation (DAW) and MIDI sequencer developed by Apple Inc.
+      Designed exclusively for macOS, it empowers musicians, producers, and composers with a wide range of tools for
+      recording, mixing, and mastering. Its sleek interface, advanced plugins, and intuitive workflow make it one of the
+      most powerful music production environments available today.
+    </p>
+
+    <div class="text-center mt-4">
+      <a href="https://www.apple.com/logic-pro/" target="_blank" class="btn btn-custom">Visit Official Website</a>
+  <a href="index.php" class="btn btn-custom">Back to Homepage</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
